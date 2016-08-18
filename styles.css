@@ -6,6 +6,11 @@ body {
     text-align: center;
 }
 
+header {
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
 #content {
     display: block;
     margin-left: auto;
