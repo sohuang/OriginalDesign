@@ -6,8 +6,11 @@ void draw()
 {
 	background(255, 255, 255);
 	ellipse(50,50,50,50);
-	
+
 }
 
+void star()
+{
 
+}
 
