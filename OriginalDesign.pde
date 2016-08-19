@@ -1,16 +1,17 @@
 void setup()
 {
 	size(100,100);
+	background(255, 255, 255);
 }
 void draw()
 {
-	background(255, 255, 255);
-	ellipse(50,50,50,50);
-
+	mouseDraw();
 }
 
-void star()
+void mouseDraw()
 {
-
+	if (mousePressed) {
+		line(mouseX, mouseY, pmouseX, pmouseY);
+	}
 }
 
